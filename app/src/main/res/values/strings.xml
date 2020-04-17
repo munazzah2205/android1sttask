@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string-array name="Category"/>
+        <item name="Utilities" type="string" />
+    <item name="Education" type="string" />
+    <item name="Entertainment" type="string" />
+    <item name="Groceries" type="string" />
+    <item name="Food" type="string" />
+
+</resources>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/amazon"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/specialoffer"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 offer"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="25dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/salepercent"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 offers"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="80dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/dominos"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/specialoffer"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 offer"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="25dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/salepercent"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 offers"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="80dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="95dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/zara"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/sale"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Active"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="54dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="200dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/indianoil"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/salepercent"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 offers"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="48dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="200dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        >
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/indigo"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/salepercent"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 offers"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="48dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:id="@+id/ola"
+        >
+
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/ola"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="105dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="10dp"
+            />
+        <RelativeLayout
+            android:layout_weight=".6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/salepercent"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 offers"
+                android:textSize="8dp"
+                android:textColor="#0d0d0d"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="48dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most Used Merchents"
+        android:layout_alignBaseline="@id/ola"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp">
+
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="All Merchants"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
